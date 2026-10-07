@@ -1,14 +1,14 @@
 class Udo < Formula
   desc "Task, time and workflow manager for the terminal"
   homepage "https://github.com/jqyDee/udo"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/jqyDee/udo/releases/download/v0.2.0/udo-aarch64-apple-darwin.tar.xz"
-    sha256 "7e4256200beac0205f7dc27c0f289ead37f628e65a0c2c42eac7ac06975b2362"
+    url "https://github.com/jqyDee/udo/releases/download/v0.3.0/udo-aarch64-apple-darwin.tar.xz"
+    sha256 "bfdefc264fd3076403fbc01c6d817ee9dee972acbae9dca6e76c3ed41b232cfd"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jqyDee/udo/releases/download/v0.2.0/udo-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "687d199159c08085410f794aeb8c0fc1c11d9ac179d9c573fd82c9a4ee688b90"
+    url "https://github.com/jqyDee/udo/releases/download/v0.3.0/udo-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "a5eb497e9dfae78703f1ec4c9d2c91879d587e712fc9ec7c7a017a27489b29a7"
   end
   license any_of: ["MIT", "Apache-2.0"]
 
